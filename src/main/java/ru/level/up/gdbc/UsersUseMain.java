@@ -26,8 +26,8 @@ public class UsersUseMain {
 
     UsersUse newUser = new UsersUse(login, password);
 
-        newUser.addUsers();
-        System.out.println("Пользователь " + login + " добавлен");
+  //      newUser.addUsers();
+//        System.out.println("Пользователь " + login + " добавлен");
 //
 //        newUser.deleteUsers();
 //         System.out.println("Пользователь " + login + " удалён");
@@ -37,7 +37,7 @@ public class UsersUseMain {
 
 //          newUser.selectUser();
 
- //           newUser.autorization();
+           newUser.autorization();
 
     }
 
